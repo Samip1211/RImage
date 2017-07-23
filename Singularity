@@ -2,6 +2,8 @@ Bootstrap: docker
 From: r-base:latest
 
 %post
+	apt-get update
+	apt-get install -y libssl-dev libsasl2-dev
 	R -e "install.packages('Hmisc')"
 	R -e "install.packages('ggplot')"
 	R -e "install.packages('mongolite')"
