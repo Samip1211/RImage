@@ -14,7 +14,7 @@ From: r-base:latest
 	R -e "install.packages('choroplethr')"
 	R -e "install.packages('readxl')"
 	R -e "install.packages('dplyr')"
-	R -e "install.packages('choropletherMaps')"
+	R -e "install.packages('choroplethrMaps')"
 	R -e "install.packages('ggplot2')"
 	R -e "install.packages('igraph')"
 	
