@@ -9,3 +9,12 @@ From: r-base:latest
 	R -e "install.packages('mongolite')"
 	R -e "install.packages('stringr')"
 	R -e "install.packages('jsonlite')"
+	R -e "install.packages('maps')"
+	R -e "install.packages('mapproj')"
+	R -e "install.packages('choroplethr')"
+	R -e "install.packages('readxl')"
+	R -e "install.packages('dplyr')"
+	R -e "install.packages('choropletherMaps')"
+	R -e "install.packages('ggplot2')"
+	R -e "install.packages('igraph')"
+	
